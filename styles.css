@@ -1,0 +1,49 @@
+/* Тег */
+p{
+  background-color: rgb(192, 145, 236);
+}
+
+/* Клас */
+.selector-class{
+  background-color: rgb(173, 238, 216);
+}
+
+/* Id */
+#id{
+  background-color: bisque;
+}
+
+/* Атрибут */
+p[title="selector-title"]{
+  background-color: pink;
+}
+
+/* Вкладений селектор */
+div.container p{
+  background-color: rgb(170, 209, 170);
+}
+
+/* Дочірній селектор */
+div > p{
+  background-color: rgb(194, 122, 89);
+}
+
+/* Послідовність селекторів */
+h2 + p{
+  background-color: rgb(97, 97, 134);
+}
+
+/* Комбінація тег/клас */
+span.span-class{
+  background-color: rgb(197, 209, 27);
+}
+
+/* Комбінація id/клас */
+#selector-id.selector-class{
+  background-color: rgb(235, 192, 224);
+}
+
+/* Вкладеність з id, класом і атрибутом */
+#mix.class p[title="mix-selector"]{
+  background-color: rgba(117, 38, 190, 0.123);
+}

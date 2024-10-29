@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Селектори CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <p>Селектор для тега "р", вага 1*</p>*
+
+  <div class="selector-class">Селектор для класу "class-selector", вага 10*</div>*
+
+  <div id="id">Селектор для id "#selector-id", вага 100*</div>*
+
+  <p title="selector-title">Застосовується до атрибуту p[title="selector-title"], вага 11*</p>*
+
+  <div class="container">
+    <p> Застосовується до елемента p, який є нащадком елемента з класом container, вкладеного в div, вага 12*</p>*
+  </div>
+
+  <div>
+    <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 2*</p>*
+  </div>
+
+  <h2>Селектор тегу h2</h2>
+  <p>Текст для послідовності селекторів, вага 2*</p>*
+
+  <span class="span-class">Застосовується до span, що має клас span-class, вага 11*</span>*
+
+  <div id="selector-id" class="selector-class">Застосовується до елементів id="selector-id" і class="selector-class",
+    вага 110*</div>*
+
+  <div id="mix" class="class">
+    <p title="mix-selector">Застосовується до p, який вкладений у елемент з id="mix" та класом selector-class, і має
+      атрибут title="mix-selector", вага 121*</p>
+  </div>
+
+
+</body>
+
+</html>
